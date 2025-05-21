@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  gap: 30px;
+  padding: 15px 30px;
+  border-bottom: 2px solid #eee;
+  background-color: #fafafa;
+}
+
+nav a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  color: #333;
+  font-weight: normal;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+nav a.active {
+  color: #007BFF;
+  border-bottom: 3px solid #007BFF;
+  font-weight: bold;
+}
